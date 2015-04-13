@@ -17,7 +17,5 @@
       "source": "/api/example/1"
     }
   },
-  "devDependencies": {
-    "compression": "^1.4.3"
-  }
+  "devDependencies": {}
 }

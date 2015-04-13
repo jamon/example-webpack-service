@@ -13,8 +13,11 @@
     "express": "^4.12.3"
   },
   "devServer": {
-      "service": {
-        "source": "/api/example/1"
-      }
+    "service": {
+      "source": "/api/example/1"
+    }
+  },
+  "devDependencies": {
+    "compression": "^1.4.3"
   }
 }

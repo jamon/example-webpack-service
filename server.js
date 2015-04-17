@@ -4,7 +4,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/test', function (req, res) {
-  res.json({message: "this is a test"});
+  res.json({account: 0});
 });
 
 var server = app.listen(3000, function () {
